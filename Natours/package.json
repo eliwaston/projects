@@ -1,0 +1,13 @@
+{
+  "name": "Natours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eli",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  }
+}
